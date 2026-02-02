@@ -105,6 +105,8 @@ All business logic is handled in Python:
 - Issues:
   - Multi-route confusion
   - ICD ambiguity
+ 
+### Note: V1 and V2 prompts are evaluated manually as they are givening irregular results for every iter or run. for most of the mails and measured expected accuracy and mentioned here.
 
 ### v3 – Business-Rule Driven (Final)
 - Explicit handling of:
@@ -217,3 +219,4 @@ Overall accuracy:       91.33%
 
 **Author:** P. Raghavendra  
 **Assessment:** Task Harmony – Backend / AI Engineer
+
