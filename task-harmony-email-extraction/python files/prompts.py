@@ -1,6 +1,10 @@
 # v1 – basic extraction
 PROMPT_V1 = """
 Extract shipment details from the email and return JSON.
+
+Email:
+Subject: {subject}
+Body: {body}
 """
 
 # v2 – added rules
@@ -11,6 +15,10 @@ Rules:
 - First shipment only
 - Default incoterm FOB
 Return JSON.
+
+Email:
+Subject: {subject}
+Body: {body}
 """
 
 # v3 – final strict prompt
@@ -41,3 +49,4 @@ Email:
 Subject: {subject}
 Body: {body}
 """
+
